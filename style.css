@@ -99,12 +99,8 @@ img {
   }
 }
 
-/* blocco steps*/
-@media screen and (max-width: 419px) {
-  #steps .row {
-    background-color: #f9f9f9;
-  }
-}
+/* blocco steps e perché*/
+
 
 @media screen and (max-width: 419px) {
   #steps .row>.left,
@@ -115,9 +111,9 @@ img {
   }
 }
 
-/*blocco perché*/
 @media screen and (max-width: 419px) {
-  #why .row {
+  #steps .row,
+  #why .row  {
     background-color: #f9f9f9;
   }
 }
