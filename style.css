@@ -1,3 +1,4 @@
+/*Utility*/
 .row {
   width: 992px;
   margin-left: auto;
@@ -53,7 +54,7 @@
   padding: 30px
 }
 
-/* COMMON */
+/* CLEARFIX */
 .row::after {
   content: '';
   display: table;
@@ -88,6 +89,10 @@ img {
 }*/
 
 /*RESPONSIVE <420px*/
-@media screen and (max-width 419px) {
-
+@media screen and (max-width: 419px) {
+  .row {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
 }
