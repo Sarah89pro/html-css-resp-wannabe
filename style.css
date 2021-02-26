@@ -99,3 +99,26 @@ img {
   }
 }
 
+/* blocco steps*/
+@media screen and (max-width: 419px) {
+  #steps .row {
+    background-color: #f9f9f9;
+  }
+}
+
+@media screen and (max-width: 419px) {
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+/*blocco perché*/
+@media screen and (max-width: 419px) {
+  #why .row {
+    background-color: #f9f9f9;
+  }
+}
+
