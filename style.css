@@ -102,6 +102,23 @@ img {
   }
 }
 
+@media screen and (max-width: 419px) {
+  h1,
+  h3,
+  div
+  {
+    text-align: left;
+    margin-left: 2%;
+  }
+}
+
+@media screen and (max-width: 419px) {
+  #lezioni .row img {
+    display: block;
+    margin-left: 2%;
+  }
+}
+
 /* background*/
 @media screen and (max-width: 419px) {
   #steps .row,
